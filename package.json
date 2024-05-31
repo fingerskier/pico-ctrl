@@ -1,0 +1,36 @@
+{
+  "name": "pico-ctrl",
+  "version": "1.0.0",
+  "description": "Nodejs control module for Raspberry Pi Pico",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node test.js > output.log 2>&1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fingerskier/pico-ctrl.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "npm",
+    "raspberry",
+    "pi",
+    "pico",
+    "w"
+  ],
+  "author": "fingerskier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fingerskier/pico-ctrl/issues"
+  },
+  "homepage": "https://github.com/fingerskier/pico-ctrl#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "usb": "^2.13.0",
+    "usb-detection": "^4.14.2"
+  }
+}
